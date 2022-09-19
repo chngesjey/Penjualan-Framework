@@ -19,7 +19,7 @@
       </div>
 
       <div class="col-3">
-        <div class="p-3 rounded bg-info mt-3"> 100 Member <i class="fa fa-users"></i></div>
+        <div class="p-3 rounded bg-info mt-3"> {{$pembeli->count()}} Pembeli  <i class="fa fa-users"></i></div>
       </div>
     </div>
 @endsection

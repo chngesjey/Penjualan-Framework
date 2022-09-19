@@ -49,7 +49,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Tambah Suplier</h5>
+        <h5 class="modal-title" id="staticBackdropLabel">Tambah Supplier</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -57,7 +57,7 @@
           @csrf
           <div class="form-group mb-3">
             <label for="nama">Nama</label>
-            <input type="text" name="nama" id="nama" 
+            <input type="text" name="nama" autocomplete="off" id="nama" 
             class="form-control @error('nama') is-invalid @enderror">
           </div>
 

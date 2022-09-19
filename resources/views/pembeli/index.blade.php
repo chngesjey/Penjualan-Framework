@@ -57,7 +57,7 @@
           @csrf
           <div class="form-group mb-3">
             <label for="nama">Nama</label>
-            <input type="text" name="nama" id="nama" 
+            <input type="text" autocomplete="off" name="nama" id="nama" 
             class="form-control @error('nama') is-invalid @enderror">
           </div>
 
@@ -88,5 +88,4 @@
       
     </script>
 @endpush
-
 

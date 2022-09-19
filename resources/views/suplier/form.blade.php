@@ -1,14 +1,14 @@
 @extends('layout.app')
 
 @section('title')
-    Kategori
+    Supplier
 @endsection
 
 @section('content')
 <div class="card mt-3">
   <div class="card-header">
     <div class="card-title">
-      <h5>Edit Suplier</h5>
+      <h5>Edit Supplier</h5>
 
       <div class="card-body">
         <form action="{{route('suplier.update', $suplier->id)}}" 

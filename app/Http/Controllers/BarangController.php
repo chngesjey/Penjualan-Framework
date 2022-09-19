@@ -43,7 +43,7 @@ class BarangController extends Controller
 
         // return $request;
         $validate = $request->validate([
-            'nama' => 'required|max:255|alpha',
+            'nama' => 'required|max:255',
             'harga' => 'required|numeric',
             'stok' => 'required|numeric|min:1',
             'suplier_id' => 'required',
@@ -89,7 +89,7 @@ class BarangController extends Controller
     public function update(Request $request, Barang $barang)
     {
         $validate = $request->validate([
-            'nama' => 'required|max:255|alpha',
+            'nama' => 'required|max:255',
             'harga' => 'required|numeric',
             'stok' => 'required|numeric|min:1',
             'suplier_id' => 'required',

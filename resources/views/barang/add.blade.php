@@ -21,7 +21,7 @@
         <div class="col-lg-6">
           <div class="form-group">
             <label for="nama" class="form-label">Nama Barang</label>
-            <input type="text" name="nama" id="nama" value="{{ old('nama') }}" class="form-control @error('nama') is-invalid @enderror">
+            <input type="text" name="nama" autocomplete="off" id="nama" value="{{ old('nama') }}" class="form-control @error('nama') is-invalid @enderror">
             @error('nama')
               <div class="text-danger">
                 {{ $message }}

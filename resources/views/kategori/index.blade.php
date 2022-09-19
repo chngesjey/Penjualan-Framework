@@ -53,7 +53,7 @@
           @csrf
           <div class="form-group">
             <label for="nama">Nama</label>
-            <input type="text" name="nama" id="nama" 
+            <input type="text" name="nama" autocomplete="off" id="nama" 
             class="form-control @error('nama') is-invalid @enderror">
           </div>
           
